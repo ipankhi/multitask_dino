@@ -14,7 +14,7 @@ NOISE_STD = 0.1                                       # noise strength (0.05–0
 
 # --- Common Transform ---
 transform = transforms.Compose([
-    transforms.Resize((84, 84)),
+    transforms.Resize((128,128 )),
     transforms.ToTensor()
 ])
 
