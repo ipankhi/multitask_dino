@@ -1,0 +1,14 @@
+# Ignore any local data folders
+*/DATA/
+DATA/*
+
+# Ignore checkpoints and model weights
+checkpoints/
+*.pth
+*.pt
+
+# Common ML run outputs
+runs/
+wandb/
+outputs/
+logs/
